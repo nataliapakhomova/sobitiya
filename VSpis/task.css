@@ -1,0 +1,43 @@
+.dropdown {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.dropdown__list {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown__list.dropdown__list_active {
+    display: block;
+}
+
+.dropdown__value {
+    display: inline-block;
+    color: white;
+    background: gray;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.dropdown__value:after {
+    content: '  \21E9';
+    font-size: 18px;
+}
+
+.dropdown__item {
+    list-style-type: none;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.dropdown__link {
+    text-decoration: none;
+    color: black;
+}
+

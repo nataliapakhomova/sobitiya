@@ -1,0 +1,20 @@
+.tab__navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab {
+    cursor: pointer;
+}
+
+.tab.tab_active {
+    color: blue;
+}
+
+.tab__content {
+    display: none;
+}
+
+.tab__content.tab__content_active {
+    display: block;
+}
